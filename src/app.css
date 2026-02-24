@@ -1,0 +1,27 @@
+:root {
+  font-family: 'Inter', 'Segoe UI', Roboto, system-ui, sans-serif;
+  color: #23213a;
+  background: radial-gradient(circle at top, #f9fbff 0%, #eef2ff 45%, #f8eaff 100%);
+}
+
+* { box-sizing: border-box; }
+
+html,
+body,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 999px;
+  background: #ffffffdd;
+  color: #433f77;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+button:hover { transform: translateY(-1px); box-shadow: 0 8px 20px #8d75d933; }
+button:active { transform: translateY(0); }
